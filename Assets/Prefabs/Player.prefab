@@ -19,6 +19,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4816074825699998}
+  - component: {fileID: 68454099856334304}
+  - component: {fileID: 50735565888099478}
+  - component: {fileID: 114988398473255836}
   m_Layer: 13
   m_Name: Feet
   m_TagString: Untagged
@@ -93,6 +96,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!50 &50735565888099478
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042275819969690}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61093345790939320
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -118,6 +141,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.65609145, y: 1.2280791}
   m_EdgeRadius: 0
+--- !u!68 &68454099856334304
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042275819969690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.2545087, y: -0.021347106}
+  - {x: 0.25450876, y: -0.021347106}
 --- !u!95 &95269925147539652
 Animator:
   serializedVersion: 3
@@ -157,6 +197,17 @@ MonoBehaviour:
   feetHeight: 0.04
   canDoubleJump: 0
   delayForDoubleJump: 0.2
+--- !u!114 &114988398473255836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042275819969690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4aad407734f3df48a0fb554efe55aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212271919538104822
 SpriteRenderer:
   m_ObjectHideFlags: 1

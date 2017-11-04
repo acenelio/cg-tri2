@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Foreground
   - Coin
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
