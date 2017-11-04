@@ -9,6 +9,7 @@ TagManager:
   - Collectible
   - Enemy
   - Foreground
+  - Coin
   layers:
   - Default
   - TransparentFX
