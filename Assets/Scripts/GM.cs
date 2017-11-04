@@ -14,6 +14,10 @@ public class GM : MonoBehaviour {
 	public Transform spawnPoint;
 	public GameObject playerPrefab;
 
+	public UI ui;
+
+	GameData data = new GameData();
+
 	void Awake() {
 		if (instance == null) {
 			instance = this;
@@ -34,6 +38,15 @@ public class GM : MonoBehaviour {
 				player = obj.GetComponent<PlayerCtrl>();
 			}
 		}
+		DisplayHudData();
+	}
+
+	void DisplayHudData() {
+		ui.hud.txtCoinCount.text = "x " + data.coinCount;
+	} 
+
+	public void IncrementCoinCount() {
+		data.coinCount++;
 	}
 
 	public void KillPlayer() {
