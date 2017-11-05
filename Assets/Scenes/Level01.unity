@@ -12059,6 +12059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSFX:
     coinPickup: {fileID: 8300000, guid: 7ba245b2a978e4341b26a5aa94647f7e, type: 3}
+    fail: {fileID: 8300000, guid: 759d2d07aa9bf324dbbf92e4b06bf255, type: 3}
   audioPlayer:
     jump: {fileID: 8300000, guid: eaa3be680a627d84a8d40134d8ff7b51, type: 3}
 --- !u!1 &1933289077
