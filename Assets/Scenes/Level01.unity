@@ -3305,7 +3305,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 1781560848}
   playerPrefab: {fileID: 1966378131073508, guid: 935dec4e9e02d3e48ac0a9176ed7c9c5,
     type: 2}
-  maxTime: 5
+  maxTime: 120
   ui:
     hud:
       txtCoinCount: {fileID: 542043896}
