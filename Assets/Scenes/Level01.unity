@@ -4372,6 +4372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yLive: -10
   timeToRespawn: 2
+  timeToKill: 1.5
   spawnPoint: {fileID: 1781560848}
   playerPrefab: {fileID: 1966378131073508, guid: 935dec4e9e02d3e48ac0a9176ed7c9c5,
     type: 2}
