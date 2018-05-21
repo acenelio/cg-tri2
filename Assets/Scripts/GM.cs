@@ -78,7 +78,7 @@ public class GM : MonoBehaviour {
 	void DisplayHudData() {
 		ui.hud.txtCoinCount.text = "x " + data.coinCount;
 		ui.hud.txtLifeCount.text = "x " + data.lifeCount;
-		ui.hud.txtTimer.text = "Timer: " + timeLeft.ToString("F1");
+		ui.hud.txtTimer.text = timeLeft.ToString("F1");
 	} 
 
 	public void IncrementCoinCount() {
